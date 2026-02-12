@@ -34,10 +34,10 @@ export function AboutCollege() {
               <Building2 className="w-12 h-12 text-blue-600 mb-4" />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">About the Institution</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Engineering College Ajmer is a prestigious government engineering college established to provide quality technical education and foster innovation among aspiring engineers. As a government-funded institution, we maintain the highest standards of academic excellence and research.
+                Government Engineering College Ajmer (GECA), established in 1997, is a leading Government Institute of Rajasthan affiliated with Bikaner Technical University (BTU). With 29 years of academic excellence, the college offers B.Tech, M.Tech, MCA, and MBA programs.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Located in the historic city of Ajmer, Rajasthan, our college has been a cornerstone of technical education, producing skilled engineers who contribute significantly to various sectors of industry and research.
+                Known for quality education, modern facilities, and a focus on innovation, GECA continues to be a trusted center for technical learning and student development.
               </p>
               <a
                 href="https://www.ecajmer.ac.in/"
@@ -62,7 +62,7 @@ export function AboutCollege() {
               <Award className="w-10 h-10 text-purple-600 mb-3" />
               <h4 className="text-xl font-bold text-gray-900 mb-2">Government Recognition</h4>
               <p className="text-gray-600 leading-relaxed">
-                As a government engineering institution, we are recognized by AICTE and affiliated with Rajasthan Technical University, ensuring that our curriculum meets national standards and our degrees are widely accepted.
+                As a government engineering institution, we are recognized by AICTE and affiliated with Bikaner Technical University (BTU), ensuring that our curriculum meets national standards.
               </p>
             </div>
 

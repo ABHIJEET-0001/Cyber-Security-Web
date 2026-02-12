@@ -8,8 +8,8 @@ interface HackathonListProps {
 export function HackathonList({ onSelectHackathon }: HackathonListProps) {
   const hackathons = [
     {
-      id: 'codeblitz-2026',
-      name: 'CODEBLITZ 2026',
+      id: 'coreblitz-2026',
+      name: 'COREBLITZ 2026',
       tagline: '8-Hour Offline Cyber Security Hackathon',
       date: 'March 20, 2026',
       time: '9:00 AM - 4:00 PM',
@@ -17,52 +17,10 @@ export function HackathonList({ onSelectHackathon }: HackathonListProps) {
       prizePool: '₹10,000',
       teamSize: '2-4 Members',
       status: 'registration-open',
-      registrationFee: '₹100',
+      registrationFee: '₹200',
       gradient: 'from-blue-600 to-indigo-600',
       borderColor: 'border-blue-100',
-    },
-    {
-      id: 'securethon-2026',
-      name: 'SECURETHON 2026',
-      tagline: 'Advanced Penetration Testing Challenge',
-      date: 'June 15, 2026',
-      time: '10:00 AM - 6:00 PM',
-      venue: 'ECA Computer Labs',
-      prizePool: '₹15,000',
-      teamSize: '2-4 Members',
-      status: 'coming-soon',
-      registrationFee: '₹250',
-      gradient: 'from-purple-600 to-pink-600',
-      borderColor: 'border-purple-100',
-    },
-    {
-      id: 'cyberquest-2026',
-      name: 'CYBERQUEST 2026',
-      tagline: 'Capture The Flag Championship',
-      date: 'September 10, 2026',
-      time: '9:00 AM - 8:00 PM',
-      venue: 'ECA Auditorium',
-      prizePool: '₹20,000',
-      teamSize: '3-5 Members',
-      status: 'coming-soon',
-      registrationFee: 'TBA',
-      gradient: 'from-green-600 to-teal-600',
-      borderColor: 'border-green-100',
-    },
-    {
-      id: 'hackdefense-2026',
-      name: 'HACKDEFENSE 2026',
-      tagline: 'Network Security & Defense Systems',
-      date: 'December 5, 2026',
-      time: '9:00 AM - 5:00 PM',
-      venue: 'ECA Innovation Lab',
-      prizePool: '₹12,000',
-      teamSize: '2-4 Members',
-      status: 'coming-soon',
-      registrationFee: 'TBA',
-      gradient: 'from-orange-600 to-red-600',
-      borderColor: 'border-orange-100',
-    },
+    }
   ];
 
   const getStatusBadge = (status: string) => {
@@ -104,7 +62,7 @@ export function HackathonList({ onSelectHackathon }: HackathonListProps) {
         </motion.div>
 
         {/* Hackathon Grid */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 justify-center">
           {hackathons.map((hackathon, index) => (
             <motion.div
               key={hackathon.id}
@@ -112,7 +70,7 @@ export function HackathonList({ onSelectHackathon }: HackathonListProps) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               onClick={() => onSelectHackathon(hackathon.id)}
-              className={`group relative p-8 bg-white border ${hackathon.borderColor} rounded-2xl hover:shadow-xl transition-all cursor-pointer hover:-translate-y-1 shadow-sm`}
+              className={`group relative p-8 bg-white border ${hackathon.borderColor} rounded-2xl hover:shadow-xl transition-all cursor-pointer hover:-translate-y-1 shadow-sm md:col-span-2 lg:col-span-1 lg:col-start-1 lg:col-end-3 mx-auto max-w-2xl w-full`}
             >
               {/* Status Badge */}
               <div className="mb-4">

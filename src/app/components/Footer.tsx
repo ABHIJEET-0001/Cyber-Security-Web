@@ -21,7 +21,6 @@ export function Footer() {
     { label: 'About Club', id: 'about-club' },
     { label: 'Current Hackathon', id: 'current-hackathon' },
     { label: 'Problem Statements', id: 'problem-statements' },
-    { label: 'Past Events', id: 'past-events' },
     { label: 'Team', id: 'team' },
     { label: 'FAQ', id: 'faq' },
   ];
@@ -51,7 +50,7 @@ export function Footer() {
               competitive events, and industry collaboration.
             </p>
             <div className="flex items-center gap-3">
-              <a href="#" className="p-2 bg-gray-800 hover:bg-blue-900/50 rounded-lg transition-all">
+              <a href="https://instagram.com/CYBERSECURITYCLUB_ECA" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 hover:bg-blue-900/50 rounded-lg transition-all">
                 <Instagram className="w-4 h-4 text-gray-400 hover:text-blue-400" />
               </a>
               <a href="#" className="p-2 bg-gray-800 hover:bg-blue-900/50 rounded-lg transition-all">
@@ -116,14 +115,14 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                <a href="mailto:cyberclub@ecajmer.ac.in" className="text-gray-400 hover:text-blue-400 text-sm transition-colors">
-                  cyberclub@ecajmer.ac.in
+                <a href="mailto:pte@ecajmer.ac.in" className="text-gray-400 hover:text-blue-400 text-sm transition-colors">
+                  pte@ecajmer.ac.in
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                <a href="tel:+911452628086" className="text-gray-400 hover:text-blue-400 text-sm transition-colors">
-                  +91 145-2628086
+                <a href="tel:+919351007194" className="text-gray-400 hover:text-blue-400 text-sm transition-colors">
+                  +91 9351007194
                 </a>
               </li>
             </ul>
@@ -136,7 +135,7 @@ export function Footer() {
             {/* Copyright */}
             <div className="text-center md:text-left">
               <p className="text-gray-500 text-sm">
-                © {currentYear} Cyber Security Club, Engineering College Ajmer. All rights reserved.
+                © {currentYear} Cyber Security Club & PowerTech EE Club, Engineering College Ajmer.
               </p>
             </div>
 

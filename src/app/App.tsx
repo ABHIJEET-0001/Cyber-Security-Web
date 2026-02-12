@@ -6,11 +6,7 @@ import { AboutCollege } from '@/app/components/AboutCollege';
 import { HackathonList } from '@/app/components/HackathonList';
 import { CodeBlitz2026 } from '@/app/components/CodeBlitz2026';
 import { ProblemStatements } from '@/app/components/ProblemStatements';
-import { PastEvents } from '@/app/components/PastEvents';
-import { FutureEvents } from '@/app/components/FutureEvents';
 import { Team } from '@/app/components/Team';
-import { Sponsors } from '@/app/components/Sponsors';
-import { FAQ } from '@/app/components/FAQ';
 import { Contact } from '@/app/components/Contact';
 import { Footer } from '@/app/components/Footer';
 
@@ -32,7 +28,7 @@ export default function App() {
     if (currentPage === 'hackathon' && selectedHackathon) {
       // Render specific hackathon detail page
       switch (selectedHackathon) {
-        case 'codeblitz-2026':
+        case 'coreblitz-2026':
           return <CodeBlitz2026 onBack={handleBackToHackathonList} />;
         // Add more hackathon detail pages here as needed
         default:
@@ -55,13 +51,6 @@ export default function App() {
         return <HackathonList onSelectHackathon={handleSelectHackathon} />;
       case 'problems':
         return <ProblemStatements />;
-      case 'events':
-        return (
-          <>
-            <PastEvents />
-            <FutureEvents />
-          </>
-        );
       case 'team':
         return <Team />;
       case 'contact':

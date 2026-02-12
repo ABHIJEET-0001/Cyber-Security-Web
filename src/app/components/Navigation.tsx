@@ -31,7 +31,6 @@ export function Navigation({ currentPage, onNavigate }: NavigationProps) {
     { id: 'about', label: 'About' },
     { id: 'hackathon', label: 'Hackathon' },
     { id: 'problems', label: 'Problem Statements' },
-    { id: 'events', label: 'Events' },
     { id: 'team', label: 'Team' },
     { id: 'contact', label: 'Contact' },
   ];

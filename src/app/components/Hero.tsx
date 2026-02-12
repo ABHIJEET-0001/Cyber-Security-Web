@@ -38,6 +38,9 @@ export function Hero({ onNavigate }: HeroProps) {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-4 text-gray-900 tracking-tight">
               Cyber Security Club
             </h1>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 text-blue-600 tracking-tight">
+              & PowerTech EE Club
+            </h2>
             <div className="text-xl sm:text-2xl text-gray-600 mb-2 font-light">
               Engineering College Ajmer
             </div>
@@ -76,13 +79,6 @@ export function Hero({ onNavigate }: HeroProps) {
               className="w-full sm:w-auto px-8 py-4 bg-white hover:bg-gray-50 border border-gray-200 text-gray-700 rounded-lg font-medium transition-all hover:shadow-md"
             >
               Register / Join Club
-            </button>
-            
-            <button
-              onClick={() => onNavigate('events')}
-              className="w-full sm:w-auto px-8 py-4 bg-white hover:bg-gray-50 border border-gray-200 text-gray-700 rounded-lg font-medium transition-all hover:shadow-md"
-            >
-              Past Events
             </button>
           </motion.div>
 

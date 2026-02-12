@@ -75,11 +75,16 @@ export function CodeBlitz2026({ onBack }: CodeBlitz2026Props) {
             <span className="text-sm text-blue-700 font-medium">Registration Open</span>
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-            CODEBLITZ 2026
+            COREBLITZ 2026
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            8-Hour Offline Cyber Security Hackathon - Fast-Paced Innovation Challenge
-          </p>
+          <div className="flex flex-col items-center gap-2 mb-8">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              8-Hour Offline Cyber Security Hackathon - Fast-Paced Innovation Challenge
+            </p>
+            <p className="text-lg text-blue-600 font-semibold mt-2">
+              By CyberSecurity Club & PowerTech EE Club
+            </p>
+          </div>
         </motion.div>
 
         {/* Event Overview */}
@@ -93,7 +98,7 @@ export function CodeBlitz2026({ onBack }: CodeBlitz2026Props) {
             <Shield className="w-12 h-12 text-blue-600 mb-4" />
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Event Overview</h3>
             <p className="text-gray-600 leading-relaxed mb-4">
-              CODEBLITZ 2026 is an intensive 8-hour offline hackathon designed to challenge participants with real-world cyber security scenarios. This fast-paced event brings together aspiring security professionals, developers, and researchers to tackle cutting-edge security challenges in a time-constrained environment.
+              COREBLITZ 2026 is an intensive 8-hour offline hackathon designed to challenge participants with real-world cyber security scenarios. This fast-paced event brings together aspiring security professionals, developers, and researchers to tackle cutting-edge security challenges in a time-constrained environment.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6">
               Participants will work on problem statements spanning web security, network defense, malware analysis, digital forensics, and AI-driven security solutions. The event provides an excellent platform to showcase your skills, learn from peers, interact with mentors, and compete for exciting prizes and recognition.
@@ -347,7 +352,7 @@ export function CodeBlitz2026({ onBack }: CodeBlitz2026Props) {
           className="text-center"
         >
           <button className="px-12 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white rounded-lg font-medium text-lg transition-all hover:shadow-xl shadow-blue-500/20">
-            Register for CODEBLITZ 2026
+            Register for COREBLITZ 2026
           </button>
           <p className="text-gray-500 mt-4">Limited seats available. Register now to secure your spot!</p>
         </motion.div>

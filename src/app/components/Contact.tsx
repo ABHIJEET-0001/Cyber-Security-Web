@@ -57,19 +57,12 @@ export function Contact() {
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Email</h3>
                   <a 
-                    href="mailto:cyberclub@ecajmer.ac.in"
+                    href="mailto:pte@ecajmer.ac.in"
                     className="text-blue-600 hover:text-blue-700 transition-colors"
                   >
-                    cyberclub@ecajmer.ac.in
+                    pte@ecajmer.ac.in
                   </a>
-                  <p className="text-gray-500 text-sm mt-1">For general inquiries</p>
-                  <a 
-                    href="mailto:hackathon@ecajmer.ac.in"
-                    className="text-blue-600 hover:text-blue-700 transition-colors block mt-2"
-                  >
-                    hackathon@ecajmer.ac.in
-                  </a>
-                  <p className="text-gray-500 text-sm mt-1">For hackathon related queries</p>
+                  <p className="text-gray-500 text-sm mt-1">For all inquiries</p>
                 </div>
               </div>
             </div>
@@ -82,10 +75,12 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Phone</h3>
-                  <p className="text-gray-900">+91 145-2628086</p>
-                  <p className="text-gray-500 text-sm mt-1">College Office</p>
-                  <p className="text-gray-900 mt-2">+91 98765-43210</p>
-                  <p className="text-gray-500 text-sm mt-1">Student Coordinator</p>
+                  <div className="space-y-1">
+                    <p className="text-gray-900">+91 9351007194</p>
+                    <p className="text-gray-900">+91 8209875515</p>
+                    <p className="text-gray-900">+91 9828202003</p>
+                  </div>
+                  <p className="text-gray-500 text-sm mt-2">Contact Coordinators</p>
                 </div>
               </div>
             </div>
@@ -93,34 +88,24 @@ export function Contact() {
             {/* Social Media */}
             <div className="p-6 bg-white border border-gray-100 rounded-xl shadow-sm">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Connect With Us</h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <a
-                  href="#"
+                  href="https://instagram.com/powertech_club_eca"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-3 p-3 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-all group"
                 >
                   <Instagram className="w-5 h-5 text-pink-600 group-hover:scale-110 transition-transform" />
-                  <span className="text-gray-700 group-hover:text-gray-900">Instagram</span>
+                  <span className="text-gray-700 group-hover:text-gray-900 text-sm">@powertech club_eca</span>
                 </a>
                 <a
-                  href="#"
+                  href="https://instagram.com/CYBERSECURITYCLUB_ECA"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-3 p-3 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-all group"
                 >
-                  <Linkedin className="w-5 h-5 text-blue-700 group-hover:scale-110 transition-transform" />
-                  <span className="text-gray-700 group-hover:text-gray-900">LinkedIn</span>
-                </a>
-                <a
-                  href="#"
-                  className="flex items-center gap-3 p-3 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-all group"
-                >
-                  <Github className="w-5 h-5 text-gray-900 group-hover:scale-110 transition-transform" />
-                  <span className="text-gray-700 group-hover:text-gray-900">GitHub</span>
-                </a>
-                <a
-                  href="#"
-                  className="flex items-center gap-3 p-3 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-all group"
-                >
-                  <Twitter className="w-5 h-5 text-blue-400 group-hover:scale-110 transition-transform" />
-                  <span className="text-gray-700 group-hover:text-gray-900">Twitter</span>
+                  <Instagram className="w-5 h-5 text-pink-600 group-hover:scale-110 transition-transform" />
+                  <span className="text-gray-700 group-hover:text-gray-900 text-sm">@CYBERSECURITYCLUB_ECA</span>
                 </a>
               </div>
             </div>
